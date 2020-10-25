@@ -1,0 +1,33 @@
+body  { font-family: Georgia, serif;
+        line-height: 1.75em;
+        font-size: 100%;
+        }
+body p { font-size: 14px;}
+body h1 { color: purple;
+          font-weight: bold;
+          font-size: 1.5em;
+          font-family: 'Marko One', Georgia, 'Times New Roman', Times, serif ;}
+body h2 {font-variant: small-caps;
+         color: purple;
+         letter-spacing: 0.5em;
+         font-size: 1em;}
+h2+p {  font-style: italic;
+        text-align: center;
+        }
+body dt { font-weight: bold ;
+           color: #a0522d;}
+body dt strong {font-style: italic;
+                color: #800000;}
+#info { /*color: #008080;*/
+        }
+#info p { font-style: italic;
+          color: grey;}
+.price { color: #414141;
+         font-style: italic;
+         font-weight: bold;}
+.label:first-of-type { /*me costo un poco encontras esto, pero valio la pena (:first-of-type) */
+            font-weight: bold;
+            font-variant: small-caps;}
+.warning { font-size: x-small;
+            color: red;}
+h1, h2, #info {text-align: center;}
